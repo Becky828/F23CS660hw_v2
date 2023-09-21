@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: C:/Users/Owner/source/repos/DefaultCMakeProjects/vs_17.7.4/CMakeProject1
-BuildDirectory: C:/Users/Owner/source/repos/DefaultCMakeProjects/vs_17.7.4/CMakeProject1/out/build/x64-debug
+SourceDirectory: C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeProject1
+BuildDirectory: C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeProject1/out/build/x64-debug
 
 # Where to place the cost data store
 CostDataFile: 
@@ -27,7 +27,7 @@ SubmitInactivityTimeout:
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "C:/Users/Owner/source/repos/DefaultCMakeProjects/vs_17.7.4/CMakeProject1"
+ConfigureCommand: "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe" "C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeProject1"
 MakeCommand: "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeHw1Q5/out/build/x64-debug/tests/my_test[1]_tests.cmake")
+  include("C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeHw1Q5/out/build/x64-debug/tests/my_test[1]_tests.cmake")
+else()
+  add_test(my_test_NOT_BUILT my_test_NOT_BUILT)
+endif()

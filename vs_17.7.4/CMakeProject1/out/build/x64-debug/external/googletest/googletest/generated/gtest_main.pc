@@ -1,5 +1,5 @@
-libdir=C:/Users/Owner/source/repos/DefaultCMakeProjects/vs_17.7.4/CMakeProject1/out/install/x64-debug/lib
-includedir=C:/Users/Owner/source/repos/DefaultCMakeProjects/vs_17.7.4/CMakeProject1/out/install/x64-debug/include
+libdir=C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeProject1/out/install/x64-debug/lib
+includedir=C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeProject1/out/install/x64-debug/include
 
 Name: gtest_main
 Description: GoogleTest (with main() function)

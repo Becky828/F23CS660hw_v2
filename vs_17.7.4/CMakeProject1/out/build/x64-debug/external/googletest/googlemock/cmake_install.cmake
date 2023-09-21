@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Owner/source/repos/DefaultCMakeProjects/vs_17.7.4/CMakeProject1/external/googletest/googlemock
+# Install script for directory: C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeProject1/external/googletest/googlemock
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/Owner/source/repos/DefaultCMakeProjects/vs_17.7.4/CMakeProject1/out/install/x64-debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeProject1/out/install/x64-debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,36 +33,36 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/Owner/source/repos/DefaultCMakeProjects/vs_17.7.4/CMakeProject1/external/googletest/googlemock/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeProject1/external/googletest/googlemock/include/")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Owner/source/repos/DefaultCMakeProjects/vs_17.7.4/CMakeProject1/out/build/x64-debug/lib/gmock.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeProject1/out/build/x64-debug/lib/gmock.lib")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Owner/source/repos/DefaultCMakeProjects/vs_17.7.4/CMakeProject1/out/build/x64-debug/lib/gmock_main.lib")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeProject1/out/build/x64-debug/lib/gmock_main.lib")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE OPTIONAL FILES "C:/Users/Owner/source/repos/DefaultCMakeProjects/vs_17.7.4/CMakeProject1/out/build/x64-debug/bin/${CMAKE_INSTALL_CONFIG_NAME}/gmockpdb_debug_postfix-NOTFOUND.pdb")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE OPTIONAL FILES "C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeProject1/out/build/x64-debug/bin/${CMAKE_INSTALL_CONFIG_NAME}/gmockpdb_debug_postfix-NOTFOUND.pdb")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE OPTIONAL FILES "C:/Users/Owner/source/repos/DefaultCMakeProjects/vs_17.7.4/CMakeProject1/out/build/x64-debug/bin/${CMAKE_INSTALL_CONFIG_NAME}/gmock_mainpdb_debug_postfix-NOTFOUND.pdb")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE OPTIONAL FILES "C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeProject1/out/build/x64-debug/bin/${CMAKE_INSTALL_CONFIG_NAME}/gmock_mainpdb_debug_postfix-NOTFOUND.pdb")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/Owner/source/repos/DefaultCMakeProjects/vs_17.7.4/CMakeProject1/out/build/x64-debug/external/googletest/googletest/generated/gmock.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeProject1/out/build/x64-debug/external/googletest/googletest/generated/gmock.pc")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "gmock" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/Owner/source/repos/DefaultCMakeProjects/vs_17.7.4/CMakeProject1/out/build/x64-debug/external/googletest/googletest/generated/gmock_main.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeProject1/out/build/x64-debug/external/googletest/googletest/generated/gmock_main.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Owner/source/repos/DefaultCMakeProjects/vs_17.7.4/CMakeProject1/out/build/x64-debug/external/googletest/googletest/cmake_install.cmake")
+  include("C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeProject1/out/build/x64-debug/external/googletest/googletest/cmake_install.cmake")
 
 endif()
 

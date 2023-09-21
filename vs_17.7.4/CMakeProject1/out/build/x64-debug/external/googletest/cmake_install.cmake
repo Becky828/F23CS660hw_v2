@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Owner/source/repos/DefaultCMakeProjects/vs_17.7.4/CMakeProject1/external/googletest
+# Install script for directory: C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeProject1/external/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/Owner/source/repos/DefaultCMakeProjects/vs_17.7.4/CMakeProject1/out/install/x64-debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeProject1/out/install/x64-debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Owner/source/repos/DefaultCMakeProjects/vs_17.7.4/CMakeProject1/out/build/x64-debug/external/googletest/googlemock/cmake_install.cmake")
+  include("C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeProject1/out/build/x64-debug/external/googletest/googlemock/cmake_install.cmake")
 
 endif()
 
