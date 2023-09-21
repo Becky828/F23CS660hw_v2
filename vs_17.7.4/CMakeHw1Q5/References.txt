@@ -3,3 +3,4 @@
 //https://sentry.io/answers/revert-a-git-repository-to-a-previous-commit/
 //https://github.com/cpp-for-yourself/supplementary-materials/blob/main/lectures/googletest.md
 //https://stackoverflow.com/questions/35784700/cmake-error-when-building-opencv-cmakelists-not-match
+//https://www.random.org/integer-sets/?sets=4&num=10&min=1&max=20&seqnos=on&commas=on&sort=on&order=index&format=html&rnd=new

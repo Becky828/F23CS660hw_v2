@@ -12,7 +12,7 @@ endif()
 project ("CMakeHw1Q5")
 
 # Add source to this project's executable.
-add_executable (CMakeHw1Q5 "CMakeHw1Q5.cpp" "CMakeHw1Q5.h")
+add_executable (CMakeHw1Q5 "CMakeHw1Q5.cpp" "CMakeHw1Q5.h" "SortedArraysSet.cpp" "EmptyArraysSet.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET CMakeHw1Q5 PROPERTY CXX_STANDARD 20)
