@@ -1,0 +1,18 @@
+# ninja log v5
+12	2791	7169918871630224	CMakeFiles/CMakeProject1.dir/CMakeProject1.cpp.obj	46b28f7906de0a1
+19	3351	7169918877475922	tests/CMakeFiles/my_test.dir/my_test.cpp.obj	a2d25e1d73388974
+48	6415	7169918907868660	external/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.obj	a95cb8b4d52f7e3e
+34	6847	7169918912372422	external/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	5e52ed78297582e1
+2802	7170	7169918913742393	CMakeProject1.exe	8e3c7581fe951279
+26	9393	7169918937444381	external/googletest/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.obj	2e8d89662c14026e
+3360	9456	7169918938450104	external/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	c859b614a7795dd
+41	9708	7169918940700086	external/googletest/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.obj	c76fd9f31e0fb401
+9404	9930	7169918941728422	lib/gmock.lib	7413abb2be366b2f
+9708	10009	7169918943478782	lib/gmock_main.lib	7cfbedc30adf3b81
+6847	11124	7169918955219798	external/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	aad88ad1f3447d3e
+6416	13822	7169918982130415	external/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	eba94a2df827cecc
+13822	13940	7169918983305802	lib/gtest.lib	d9c0a3fda3b2f971
+13940	14007	7169918984076959	lib/gtest_main.lib	e6a715caa2dc7a9b
+14008	15429	7169918997856927	tests/my_test.exe	5a7c7f2b17a74056
+14008	15429	7169918997856927	tests/my_test[1]_tests.cmake	5a7c7f2b17a74056
+14008	15429	7169918997856927	C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeHw1Q4/out/build/x64-debug/tests/my_test[1]_tests.cmake	5a7c7f2b17a74056
