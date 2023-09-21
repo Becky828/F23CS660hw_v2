@@ -7,3 +7,5 @@
 //https://stackoverflow.com/questions/12791266/c-concatenate-two-int-arrays-into-one-larger-array
 //https://stackoverflow.com/questions/40656871/remove-from-the-beginning-of-stdvector
 //https://stackoverflow.com/questions/6003649/add-items-to-a-vector-recursively
+//https://cplusplus.com/reference/list/list/back/
+//https://stackoverflow.com/questions/21929420/how-do-i-concatenate-a-list-of-lists-in-c

@@ -1,28 +1,29 @@
-#include <vector>
+//#include <vector>
+#include <list>
 
-std::vector<int> merge(std::vector<int> arrayOne, std::vector<int> arrayTwo)
+std::list<int> merge(std::list<int> arrayOne, std::list<int> arrayTwo)
 {
-	std::vector<int> result;
-	if (arrayOne[arrayOne.size() - 1 == 0])
+	std::list<int> result;
+	if (arrayOne.back() == 0)
 		return arrayTwo;
-	if (arrayTwo[arrayTwo.size() - 1 == 0])
+	if (arrayTwo.back() == 0)
 		return arrayOne;
-	if (arrayOne[1] <= arrayTwo[1])
+	if (arrayOne.front() <= arrayTwo.front())
 	{
-		result.reserve(1+arrayOne.size());
-		arrayOne.erase(arrayOne.begin());
-		std::vector<int>  recursiveArray = merge(arrayOne, arrayTwo);
-
-		result.insert(result.end(), arrayOne[0]);
-		result.insert(result.end(), recursiveArray.begin(), recursiveArray.end());
+		//result.push_back(arrayOne.front());
+		result.insert(result.end(), arrayOne.front());
+		arrayOne.pop_front();
+		std::list<int> recursion = merge(arrayOne, arrayTwo);
+		result.insert(result.end(), recursion.begin(), recursion.end());
+		return result;
 	}
 	else
 	{
-		result.reserve(1 + arrayTwo.size());
-		arrayTwo.erase(arrayTwo.begin());
-		std::vector<int>  recursiveArray = merge(arrayOne, arrayTwo);
-
-		result.insert(result.end(), arrayTwo[0]);
-		result.insert(result.end(), recursiveArray.begin(), recursiveArray.end());
-	}	
+		result.insert(result.end(), arrayTwo.front());
+		arrayTwo.pop_front();
+		std::list<int> recursion = merge(arrayOne, arrayTwo);
+		result.insert(result.end(), recursion.begin(), recursion.end());
+		return result;
+	}
+	
 };

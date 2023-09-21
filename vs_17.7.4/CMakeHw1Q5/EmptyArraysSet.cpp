@@ -1,11 +1,12 @@
-#include <vector>
+//#include <list>
+#include <list>
 struct C
 {
-	std::vector<int> c1 = {};
-	std::vector<int> c2 = {};
-	std::vector<int> c3 = {};
-	std::vector<int> c4 = {};
-	std::vector<int> c5 = {};
+	std::list<int> c1 = {};
+	std::list<int> c2 = {};
+	std::list<int> c3 = {};
+	std::list<int> c4 = {};
+	std::list<int> c5 = {};
 	/*int c1[20] = {};
 	int c2[20] = {};
 	int c3[40] = {};
