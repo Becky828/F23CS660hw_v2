@@ -2,11 +2,15 @@
 //
 
 #include "CMakeHw1Q5.h"
+#include "IterativeMerging.h"
 
 using namespace std;
 
 int main()
 {
-	cout << "Hello CMake." << endl;
+	std::list<int> solution = iterativeListsMerge();
+	for (auto v : solution)
+		std::cout << v << "\n";
+	//cout << "Hello CMake." << endl;
 	return 0;
 }

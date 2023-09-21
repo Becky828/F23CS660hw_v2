@@ -6,7 +6,7 @@ std::list<int> iterativeListsMerge()
 {
 	std::list<int> C = {};
 	SortedListsSet* sortedSet = new SortedListsSet();
-	sortedSet->sortedLists;
+	//sortedSet->sortedLists;
 
 	//struct A array{};
 	//A.for_each([&](int i) {C.push_back(i); });

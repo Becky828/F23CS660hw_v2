@@ -10,3 +10,4 @@
 //https://cplusplus.com/reference/list/list/back/
 //https://stackoverflow.com/questions/21929420/how-do-i-concatenate-a-list-of-lists-in-c
 //https://www.geeksforgeeks.org/array-of-list-in-c-with-examples/
+//https://stackoverflow.com/questions/16229729/printing-out-contents-of-a-list-from-the-c-list-library
