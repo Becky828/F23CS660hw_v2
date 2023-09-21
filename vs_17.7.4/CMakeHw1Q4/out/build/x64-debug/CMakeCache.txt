@@ -176,7 +176,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=CMakeProject1
+CMAKE_PROJECT_NAME:STATIC=CMakeHw1Q4
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=1.14.0
@@ -265,13 +265,13 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-CMakeProject1_BINARY_DIR:STATIC=C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeHw1Q4/out/build/x64-debug
+CMakeHw1Q4_BINARY_DIR:STATIC=C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeHw1Q4/out/build/x64-debug
 
 //Value Computed by CMake
-CMakeProject1_IS_TOP_LEVEL:STATIC=ON
+CMakeHw1Q4_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-CMakeProject1_SOURCE_DIR:STATIC=C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeHw1Q4
+CMakeHw1Q4_SOURCE_DIR:STATIC=C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeHw1Q4
 
 //Path to the coverage program that CTest uses for performing coverage
 // inspection

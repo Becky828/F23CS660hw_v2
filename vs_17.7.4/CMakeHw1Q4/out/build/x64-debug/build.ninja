@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: CMakeProject1
+# Project: CMakeHw1Q4
 # Configurations: Debug
 # =============================================================================
 
@@ -41,40 +41,40 @@ include CMakeFiles\rules.ninja
 
 cmake_ninja_workdir = C$:\Users\Owner\source\repos\F23CS660hw_v2\vs_17.7.4\CMakeHw1Q4\out\build\x64-debug\
 # =============================================================================
-# Object build statements for EXECUTABLE target CMakeProject1
+# Object build statements for EXECUTABLE target CMakeHw1Q4
 
 
 #############################################
-# Order-only phony target for CMakeProject1
+# Order-only phony target for CMakeHw1Q4
 
-build cmake_object_order_depends_target_CMakeProject1: phony || CMakeFiles\CMakeProject1.dir
+build cmake_object_order_depends_target_CMakeHw1Q4: phony || CMakeFiles\CMakeHw1Q4.dir
 
-build CMakeFiles\CMakeProject1.dir\CMakeProject1.cpp.obj: CXX_COMPILER__CMakeProject1_unscanned_Debug C$:\Users\Owner\source\repos\F23CS660hw_v2\vs_17.7.4\CMakeHw1Q4\CMakeProject1.cpp || cmake_object_order_depends_target_CMakeProject1
+build CMakeFiles\CMakeHw1Q4.dir\CMakeHw1Q4.cpp.obj: CXX_COMPILER__CMakeHw1Q4_unscanned_Debug C$:\Users\Owner\source\repos\F23CS660hw_v2\vs_17.7.4\CMakeHw1Q4\CMakeHw1Q4.cpp || cmake_object_order_depends_target_CMakeHw1Q4
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
-  OBJECT_DIR = CMakeFiles\CMakeProject1.dir
-  OBJECT_FILE_DIR = CMakeFiles\CMakeProject1.dir
-  TARGET_COMPILE_PDB = CMakeFiles\CMakeProject1.dir\
-  TARGET_PDB = CMakeProject1.pdb
+  OBJECT_DIR = CMakeFiles\CMakeHw1Q4.dir
+  OBJECT_FILE_DIR = CMakeFiles\CMakeHw1Q4.dir
+  TARGET_COMPILE_PDB = CMakeFiles\CMakeHw1Q4.dir\
+  TARGET_PDB = CMakeHw1Q4.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target CMakeProject1
+# Link build statements for EXECUTABLE target CMakeHw1Q4
 
 
 #############################################
-# Link the executable CMakeProject1.exe
+# Link the executable CMakeHw1Q4.exe
 
-build CMakeProject1.exe: CXX_EXECUTABLE_LINKER__CMakeProject1_Debug CMakeFiles\CMakeProject1.dir\CMakeProject1.cpp.obj
+build CMakeHw1Q4.exe: CXX_EXECUTABLE_LINKER__CMakeHw1Q4_Debug CMakeFiles\CMakeHw1Q4.dir\CMakeHw1Q4.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = CMakeFiles\CMakeProject1.dir
+  OBJECT_DIR = CMakeFiles\CMakeHw1Q4.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\CMakeProject1.dir\
-  TARGET_FILE = CMakeProject1.exe
-  TARGET_IMPLIB = CMakeProject1.lib
-  TARGET_PDB = CMakeProject1.pdb
+  TARGET_COMPILE_PDB = CMakeFiles\CMakeHw1Q4.dir\
+  TARGET_FILE = CMakeHw1Q4.exe
+  TARGET_IMPLIB = CMakeHw1Q4.lib
+  TARGET_PDB = CMakeHw1Q4.pdb
 
 
 #############################################
@@ -1088,7 +1088,7 @@ build external\googletest\googletest\install\local: phony external\googletest\go
 # =============================================================================
 # Target aliases.
 
-build CMakeProject1: phony CMakeProject1.exe
+build CMakeHw1Q4: phony CMakeHw1Q4.exe
 
 build gmock: phony lib\gmock.lib
 
@@ -1118,7 +1118,7 @@ build my_test.exe: phony tests\my_test.exe
 #############################################
 # Folder: C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeHw1Q4/out/build/x64-debug
 
-build all: phony CMakeProject1.exe tests\all external\all
+build all: phony CMakeHw1Q4.exe tests\all external\all
 
 # =============================================================================
 
