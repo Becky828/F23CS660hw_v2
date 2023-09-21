@@ -25,5 +25,5 @@ std::list<int> merge(std::list<int> arrayOne, std::list<int> arrayTwo)
 		result.insert(result.end(), recursion.begin(), recursion.end());
 		return result;
 	}
-	
+
 };

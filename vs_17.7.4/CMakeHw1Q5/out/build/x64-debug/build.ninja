@@ -56,14 +56,14 @@ build CMakeFiles\CMakeHw1Q5.dir\CMakeHw1Q5.cpp.obj: CXX_COMPILER__CMakeHw1Q5_uns
   TARGET_COMPILE_PDB = CMakeFiles\CMakeHw1Q5.dir\
   TARGET_PDB = CMakeHw1Q5.pdb
 
-build CMakeFiles\CMakeHw1Q5.dir\SortedArraysSet.cpp.obj: CXX_COMPILER__CMakeHw1Q5_unscanned_Debug C$:\Users\Owner\source\repos\F23CS660hw_v2\vs_17.7.4\CMakeHw1Q5\SortedArraysSet.cpp || cmake_object_order_depends_target_CMakeHw1Q5
+build CMakeFiles\CMakeHw1Q5.dir\SortedListsSet.cpp.obj: CXX_COMPILER__CMakeHw1Q5_unscanned_Debug C$:\Users\Owner\source\repos\F23CS660hw_v2\vs_17.7.4\CMakeHw1Q5\SortedListsSet.cpp || cmake_object_order_depends_target_CMakeHw1Q5
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
   OBJECT_DIR = CMakeFiles\CMakeHw1Q5.dir
   OBJECT_FILE_DIR = CMakeFiles\CMakeHw1Q5.dir
   TARGET_COMPILE_PDB = CMakeFiles\CMakeHw1Q5.dir\
   TARGET_PDB = CMakeHw1Q5.pdb
 
-build CMakeFiles\CMakeHw1Q5.dir\EmptyArraysSet.cpp.obj: CXX_COMPILER__CMakeHw1Q5_unscanned_Debug C$:\Users\Owner\source\repos\F23CS660hw_v2\vs_17.7.4\CMakeHw1Q5\EmptyArraysSet.cpp || cmake_object_order_depends_target_CMakeHw1Q5
+build CMakeFiles\CMakeHw1Q5.dir\EmptyListsSet.cpp.obj: CXX_COMPILER__CMakeHw1Q5_unscanned_Debug C$:\Users\Owner\source\repos\F23CS660hw_v2\vs_17.7.4\CMakeHw1Q5\EmptyListsSet.cpp || cmake_object_order_depends_target_CMakeHw1Q5
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
   OBJECT_DIR = CMakeFiles\CMakeHw1Q5.dir
   OBJECT_FILE_DIR = CMakeFiles\CMakeHw1Q5.dir
@@ -71,6 +71,13 @@ build CMakeFiles\CMakeHw1Q5.dir\EmptyArraysSet.cpp.obj: CXX_COMPILER__CMakeHw1Q5
   TARGET_PDB = CMakeHw1Q5.pdb
 
 build CMakeFiles\CMakeHw1Q5.dir\merge.cpp.obj: CXX_COMPILER__CMakeHw1Q5_unscanned_Debug C$:\Users\Owner\source\repos\F23CS660hw_v2\vs_17.7.4\CMakeHw1Q5\merge.cpp || cmake_object_order_depends_target_CMakeHw1Q5
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
+  OBJECT_DIR = CMakeFiles\CMakeHw1Q5.dir
+  OBJECT_FILE_DIR = CMakeFiles\CMakeHw1Q5.dir
+  TARGET_COMPILE_PDB = CMakeFiles\CMakeHw1Q5.dir\
+  TARGET_PDB = CMakeHw1Q5.pdb
+
+build CMakeFiles\CMakeHw1Q5.dir\IterativeMerging.cpp.obj: CXX_COMPILER__CMakeHw1Q5_unscanned_Debug C$:\Users\Owner\source\repos\F23CS660hw_v2\vs_17.7.4\CMakeHw1Q5\IterativeMerging.cpp || cmake_object_order_depends_target_CMakeHw1Q5
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -std:c++20 -ZI
   OBJECT_DIR = CMakeFiles\CMakeHw1Q5.dir
   OBJECT_FILE_DIR = CMakeFiles\CMakeHw1Q5.dir
@@ -85,7 +92,7 @@ build CMakeFiles\CMakeHw1Q5.dir\merge.cpp.obj: CXX_COMPILER__CMakeHw1Q5_unscanne
 #############################################
 # Link the executable CMakeHw1Q5.exe
 
-build CMakeHw1Q5.exe: CXX_EXECUTABLE_LINKER__CMakeHw1Q5_Debug CMakeFiles\CMakeHw1Q5.dir\CMakeHw1Q5.cpp.obj CMakeFiles\CMakeHw1Q5.dir\SortedArraysSet.cpp.obj CMakeFiles\CMakeHw1Q5.dir\EmptyArraysSet.cpp.obj CMakeFiles\CMakeHw1Q5.dir\merge.cpp.obj
+build CMakeHw1Q5.exe: CXX_EXECUTABLE_LINKER__CMakeHw1Q5_Debug CMakeFiles\CMakeHw1Q5.dir\CMakeHw1Q5.cpp.obj CMakeFiles\CMakeHw1Q5.dir\SortedListsSet.cpp.obj CMakeFiles\CMakeHw1Q5.dir\EmptyListsSet.cpp.obj CMakeFiles\CMakeHw1Q5.dir\merge.cpp.obj CMakeFiles\CMakeHw1Q5.dir\IterativeMerging.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Ob0 /Od /RTC1 -ZI
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

@@ -1,12 +1,13 @@
 # ninja log v5
 13792	15230	7170263483781679	tests/my_test[1]_tests.cmake	9c30c61da620f278
 18	3356	7170263364708276	CMakeFiles/CMakeHw1Q5.dir/CMakeHw1Q5.cpp.obj	7455199517411f16
+35	1481	7170385356634396	CMakeFiles/CMakeHw1Q5.dir/IterativeMerging.cpp.obj	d78635d693684d96
 27	3760	7170263368918298	tests/CMakeFiles/my_test.dir/my_test.cpp.obj	40f33997edadc36d
 3761	9370	7170263424993930	external/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj	7aa796dac6ed7850
 45	6148	7170263392764331	external/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj	b9b9b25d08f729ba
 58	9620	7170263427513955	external/googletest/googlemock/CMakeFiles/gmock_main.dir/__/googletest/src/gtest-all.cc.obj	a2afbe8be9b9e215
+1520	2075	7170385361574383	CMakeHw1Q5.exe	efd046b6dd1fb66c
 68	6335	7170263394344320	external/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock-all.cc.obj	f4a30881d843ee2b
-495	816	7170294899955126	CMakeHw1Q5.exe	128f02ea30c5e1b4
 36	9448	7170263425843929	external/googletest/googlemock/CMakeFiles/gmock.dir/__/googletest/src/gtest-all.cc.obj	9b44b0c3b7626f86
 9449	9807	7170263428803947	lib/gmock.lib	7413abb2be366b2f
 6149	13568	7170263467079355	external/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	156c9d60cce6dd2f
@@ -16,9 +17,7 @@
 13716	13791	7170263469419360	lib/gtest_main.lib	e6a715caa2dc7a9b
 13792	15230	7170263483781679	tests/my_test.exe	9c30c61da620f278
 13792	15230	7170263483781679	C:/Users/Owner/source/repos/F23CS660hw_v2/vs_17.7.4/CMakeHw1Q5/out/build/x64-debug/tests/my_test[1]_tests.cmake	9c30c61da620f278
-21	492	7170294897195111	CMakeFiles/CMakeHw1Q5.dir/EmptyArraysSet.cpp.obj	26dcaa8ed9fb3c15
-15	494	7170294897195111	CMakeFiles/CMakeHw1Q5.dir/SortedArraysSet.cpp.obj	e4b191ae203183fd
 50	982	7170344551630502	CMakeFiles/CMakeHw1Q5.dir/EmptyArraysSet.cpp.obj	26dcaa8ed9fb3c15
 42	985	7170344551600503	CMakeFiles/CMakeHw1Q5.dir/SortedArraysSet.cpp.obj	e4b191ae203183fd
-63	1038	7170344552240494	CMakeFiles/CMakeHw1Q5.dir/merge.cpp.obj	7f97ba7d771f1ebb
-1039	1827	7170344559590492	CMakeHw1Q5.exe	57910b96926c9655
+22	1520	7170385357104384	CMakeFiles/CMakeHw1Q5.dir/merge.cpp.obj	7f97ba7d771f1ebb
+16	1501	7170385356654515	CMakeFiles/CMakeHw1Q5.dir/SortedListsSet.cpp.obj	449f6564a6065440
