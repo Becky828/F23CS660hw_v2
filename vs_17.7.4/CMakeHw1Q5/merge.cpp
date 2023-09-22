@@ -4,9 +4,12 @@
 std::list<int> merge(std::list<int> arrayOne, std::list<int> arrayTwo)
 {
 	std::list<int> result;
-	if (arrayOne.back() == 0)
+	//if (arrayOne.back() == 0)
+	if(arrayOne.empty())
 		return arrayTwo;
-	if (arrayTwo.back() == 0)
+	//return arrayTwo;
+	//if (arrayTwo.back() == 0)
+	if (arrayTwo.empty())
 		return arrayOne;
 	if (arrayOne.front() <= arrayTwo.front())
 	{
