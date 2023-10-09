@@ -1,0 +1,13 @@
+//https://stackoverflow.com/questions/63925255/googletest-compile-with-mt-staticrelease-errors
+//https://github.com/google/googletest
+//https://sentry.io/answers/revert-a-git-repository-to-a-previous-commit/
+//https://github.com/cpp-for-yourself/supplementary-materials/blob/main/lectures/googletest.md
+//https://stackoverflow.com/questions/35784700/cmake-error-when-building-opencv-cmakelists-not-match
+//https://www.random.org/integer-sets/?sets=4&num=10&min=1&max=20&seqnos=on&commas=on&sort=on&order=index&format=html&rnd=new
+//https://stackoverflow.com/questions/12791266/c-concatenate-two-int-arrays-into-one-larger-array
+//https://stackoverflow.com/questions/40656871/remove-from-the-beginning-of-stdvector
+//https://stackoverflow.com/questions/6003649/add-items-to-a-vector-recursively
+//https://cplusplus.com/reference/list/list/back/
+//https://stackoverflow.com/questions/21929420/how-do-i-concatenate-a-list-of-lists-in-c
+//https://www.geeksforgeeks.org/array-of-list-in-c-with-examples/
+//https://stackoverflow.com/questions/16229729/printing-out-contents-of-a-list-from-the-c-list-library
