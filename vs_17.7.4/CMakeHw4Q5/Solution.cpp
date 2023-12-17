@@ -1,9 +1,29 @@
 #include "Solution.h"
 
 
+void Solution::explore(vector<vector<int>> G, vector<int> s)
+{
+	visited[s] = true;
+	ccnum[s] = cc;
+	previsit(s);
+    for (int i = 0; i < G.size(); i++)
+    {
+        if (G[s[0]][i] == 1)
+        {
+            if (visited[i] == false)
+            {
+				explore(G, s);
+			}
+		}
+	}
+	postvisit(s);
+}
 
+void Solution::previsit(vector<int> s)
+{
+}
 
-void Solution::explore(vector<int> s)
+void Solution::postvisit(vector<int> s)
 {
 }
 
@@ -40,10 +60,14 @@ void Solution::buildGraph(vector<vector<int>>& stones)
 int Solution::removeStones(vector<vector<int>>& stones)
 {
     
-        int cc = 0;
+        cc = 0;
         buildGraph(stones);
-        vector<bool> visited(stones.size());
-        vector<int> ccnum(stones.size());
+
+        //Refactor all dfs code to work with Graph G.
+
+
+        visited.reserve(stones.size());
+        ccnum.reserve(stones.size());
         for (int i= 0; i < stones.size(); i++)
         {
             visited[i] = false;

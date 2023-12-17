@@ -12,3 +12,5 @@
 //https://www.digitalocean.com/community/tutorials/2d-vectors-in-c-plus-plus
 //https://stackoverflow.com/questions/10740094/stdvector-vec-data-or-vec0
 //https://en.cppreference.com/w/cpp/container/vector/data
+//https://unstop.com/blog/2d-vector-cpp
+//https://cplusplus.com/reference/vector/vector/reserve/
