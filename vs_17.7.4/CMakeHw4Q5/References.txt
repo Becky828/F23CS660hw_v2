@@ -14,3 +14,6 @@
 //https://en.cppreference.com/w/cpp/container/vector/data
 //https://unstop.com/blog/2d-vector-cpp
 //https://cplusplus.com/reference/vector/vector/reserve/
+//https://www.geeksforgeeks.org/initialize-a-vector-in-cpp-different-ways/
+//https://en.cppreference.com/w/cpp/algorithm/for_each
+//https://www.geeksforgeeks.org/implementation-of-dfs-using-adjacency-matrix/

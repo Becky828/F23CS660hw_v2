@@ -11,11 +11,12 @@ using namespace std;
 class Solution {
 public:
     /*const int neededSize;*/
-    void explore(vector<vector<int>> G, vector<int> s, int vertex);
+    void explore(vector<vector<int>> G, vector<int> s, int vertex, vector<bool> visited);
     void previsit(vector<int> s);
-    void postvisit(vector<int> s);
-    vector<bool> visited;
-    vector< vector<int> > traveledPath;
+    void postvisit(vector<int> s); 
+   // vector<bool> visited;
+    //vector< vector<int> > traveledPath;
+    
     int cc;
     vector<int> ccnum;
 
