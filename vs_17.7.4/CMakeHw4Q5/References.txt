@@ -2,3 +2,13 @@
 //https://github.com/google/googletest
 //https://sentry.io/answers/revert-a-git-repository-to-a-previous-commit/
 //https://github.com/cpp-for-yourself/supplementary-materials/blob/main/lectures/googletest.md
+//https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/
+//algorithms required textbook
+//https://cplusplus.com/reference/vector/vector/push_back/
+
+//https://cplusplus.com/reference/vector/vector/capacity/
+//https://github.com/features/copilot (Suggestions matching public code are blocked.)
+//https://www.geeksforgeeks.org/2d-vector-in-cpp-with-user-defined-size/
+//https://www.digitalocean.com/community/tutorials/2d-vectors-in-c-plus-plus
+//https://stackoverflow.com/questions/10740094/stdvector-vec-data-or-vec0
+//https://en.cppreference.com/w/cpp/container/vector/data

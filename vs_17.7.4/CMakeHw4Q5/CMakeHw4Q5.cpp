@@ -9,14 +9,14 @@ int main()
 {
 
 	//vector<vector<int>> stones = [[0, 0], [0, 1], [1, 0], [1, 2], [2, 1], [2, 2]]
-	vector<vector<int>> stones;
 	stones.push_back({ 0,0 });
 	stones.push_back({ 0,1 });
 	stones.push_back({ 1,0 });
 	stones.push_back({ 1,2 });
 	stones.push_back({ 2,1 });
 	stones.push_back({ 2,2 });
-
+	Solution solution;
+	solution.removeStones(stones);
 	cout << "Hello CMake." << endl;
 	return 0;
 }

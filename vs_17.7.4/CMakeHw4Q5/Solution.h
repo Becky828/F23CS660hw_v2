@@ -12,6 +12,9 @@ class Solution {
 public:
     /*const int neededSize;*/
     void explore(vector<int> s);
-
+    void buildGraph(vector<vector<int>>& stones);
     int removeStones(vector<vector<int>>& stones);
+    vector < vector<int>>     G{ {0, 0, 0}, {0, 0, 0}, {0, 0, 0} };
+
+
 };
