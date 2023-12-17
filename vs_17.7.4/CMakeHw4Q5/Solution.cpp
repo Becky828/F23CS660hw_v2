@@ -1,29 +1,31 @@
 #include "Solution.h"
 
 
-void Solution::explore(vector<vector<int>> G, vector<int> s)
+void Solution::explore(vector<vector<int>> G, vector<int> vertex, int j)
 {
-	visited[s] = true;
-	ccnum[s] = cc;
-	previsit(s);
+	visited[j] = true;
+	ccnum[j] = cc;
+	previsit(vertex);
     for (int i = 0; i < G.size(); i++)
     {
-        if (G[s[0]][i] == 1)
+        if (G[vertex[0]][i] == 1)
         {
             if (visited[i] == false)
             {
-				explore(G, s);
+                vector<int> newVertex = { vertex[0], i };
+				explore(G, newVertex, i);
 			}
 		}
 	}
-	postvisit(s);
+	postvisit(vertex);
 }
 
-void Solution::previsit(vector<int> s)
+void Solution::previsit(vector<int> vertex)
 {
+    ccnum[]
 }
 
-void Solution::postvisit(vector<int> s)
+void Solution::postvisit(vector<int> vertex)
 {
 }
 
@@ -66,20 +68,20 @@ int Solution::removeStones(vector<vector<int>>& stones)
         //Refactor all dfs code to work with Graph G.
 
 
-        visited.reserve(stones.size());
-        ccnum.reserve(stones.size());
-        for (int i= 0; i < stones.size(); i++)
+        visited.reserve(G.size());
+        ccnum.reserve(G.size());
+        for (int i= 0; i < G.size(); i++)
         {
             visited[i] = false;
 
         }
 
-        for (int j = 0; j < stones.size(); j++)
+        for (int j = 0; j <G.size(); j++)
         {
             if (visited[j] == false)
             {
                 ++cc;
-                explore(stones[j]);
+                explore(G, G[j], j);
             }
 
 

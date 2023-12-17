@@ -11,7 +11,7 @@ using namespace std;
 class Solution {
 public:
     /*const int neededSize;*/
-    void explore(vector<vector<int>> G, vector<int> s);
+    void explore(vector<vector<int>> G, vector<int> s, int vertex);
     void previsit(vector<int> s);
     void postvisit(vector<int> s);
     vector<bool> visited;
