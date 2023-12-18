@@ -17,7 +17,7 @@ int main()
 	stones.push_back({ 2,2 });
 	Solution solution;
 	solution.removeStones(stones);
-	cout << "Hello CMake." << endl;
+	cout << solution.removedStonesSize << endl;
 	return 0;
 }
 

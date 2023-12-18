@@ -11,7 +11,7 @@ using namespace std;
 
 class Solution {
 public:
-    Solution() { n = 0; cc = 0; };
+    Solution() { n = 0; cc = 0; removedStonesSize = 0; };
     /*const int neededSize;*/
     void explore(vector<vector<int>> G, vector<int> s, int vertex);
     void previsit(int vertex);
@@ -25,7 +25,7 @@ public:
 
    vector<vector<int>> stonesCopy;
     vector<vector<int>> removedStones;
-
+    int removedStonesSize;
     vector<vector<int>> GCopy;
    /* vector<int> pre;
     vector<int> post;*/

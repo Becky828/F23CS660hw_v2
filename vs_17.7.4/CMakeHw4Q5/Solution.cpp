@@ -53,7 +53,7 @@ int Solution::removeStones(vector<vector<int>>& stones)
 	dfs();
 	int ccNumSum = 0;
 	for_each(ccnum.begin(), ccnum.end(), [&](int i) {
-		cout << i << " ";
+		//cout << i << " ";
 		ccNumSum += i;
 		});
 
@@ -83,9 +83,11 @@ int Solution::removeStones(vector<vector<int>>& stones)
 		}
 
 
-		int removedStonesSize = removedStones.size();
-		return removedStonesSize;
+		
 	}
+
+	removedStonesSize = removedStones.size();
+	return removedStonesSize;
 }
 void Solution::dfs()
 {
