@@ -18,3 +18,6 @@
 //https://en.cppreference.com/w/cpp/algorithm/for_each
 //https://www.geeksforgeeks.org/implementation-of-dfs-using-adjacency-matrix/
 //https://stackoverflow.com/questions/60770181/how-to-i-know-if-this-graph-is-directed-or-undirected#:~:text=An%20easy%20way%20to%20check,j%20different%20of%20A_j%2Ci.
+//https://www.geeksforgeeks.org/how-to-find-the-sum-of-elements-of-a-vector-using-stl-in-c/
+//https://stackoverflow.com/questions/8848575/fastest-way-to-reset-every-value-of-stdvectorint-to-0
+//https://stackoverflow.com/questions/3450860/check-if-a-stdvector-contains-a-certain-object
