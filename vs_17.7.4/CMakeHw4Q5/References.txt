@@ -17,3 +17,4 @@
 //https://www.geeksforgeeks.org/initialize-a-vector-in-cpp-different-ways/
 //https://en.cppreference.com/w/cpp/algorithm/for_each
 //https://www.geeksforgeeks.org/implementation-of-dfs-using-adjacency-matrix/
+//https://stackoverflow.com/questions/60770181/how-to-i-know-if-this-graph-is-directed-or-undirected#:~:text=An%20easy%20way%20to%20check,j%20different%20of%20A_j%2Ci.

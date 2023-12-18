@@ -74,7 +74,8 @@
 			"language" : "CXX",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -82,11 +83,11 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "gtest_main::@405f3af846dabb1ba1ce"
+			"id" : "gtest::@405f3af846dabb1ba1ce"
 		},
 		{
 			"backtrace" : 2,
-			"id" : "gtest::@405f3af846dabb1ba1ce"
+			"id" : "gtest_main::@405f3af846dabb1ba1ce"
 		}
 	],
 	"id" : "my_test::@a44f0ac069e85531cdee",
@@ -132,7 +133,8 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -142,6 +144,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "tests/my_test.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "tests/dfs_test.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

@@ -3,15 +3,16 @@
 using namespace std;
 
 
-void Solution::explore(vector<vector<int>> G, vector<int> vertex, int j, vector<bool> visited)
+void Solution::explore(vector<vector<int>> G, vector<int> vertex, int j)
 {
 	visited[j] = true;
 	//ccnum[j] = cc;
-	previsit(vertex);
+    previsit(j);
+    //previsit(vertex);
    /// traveledPath.push_back(G[j]);
     
     //for (int i = 0; i < G.size(); i++)
-    {
+  /*  {
         if (G[vertex[0]][j] == 1)
         {
             if (visited[j] == false)
@@ -20,18 +21,40 @@ void Solution::explore(vector<vector<int>> G, vector<int> vertex, int j, vector<
 				explore(G, newVertex, j, visited);
 			}
 		}
-	}
-	postvisit(vertex);
+	}*/
+    for (int i = 0; i < G[j].size(); i++) {
+
+        // If some node is adjacent to the current node
+        // and it has not already been visited
+        if (G[j][i] == 1 && (!visited[i])) {
+            explore(G, G[j, i], i);
+        }
+    }
+
+	postvisit(j);
 }
 
-void Solution::previsit(vector<int> vertex)
+void Solution::previsit(int vertex)
 {
-   // ccnum[]
+	pre[vertex] = clock;
+	clock++;
 }
 
-void Solution::postvisit(vector<int> vertex)
+void Solution::postvisit(int vertex)
 {
+	post[vertex] = clock;
+	clock++;
 }
+
+//void Solution::previsit(vector<int> vertex)
+//{
+//   // ccnum[]
+//
+//}
+
+//void Solution::postvisit(vector<int> vertex)
+//{
+//}
 
 void Solution::buildGraph(vector<vector<int>>& stones)
 {
@@ -63,17 +86,32 @@ void Solution::buildGraph(vector<vector<int>>& stones)
     }
 }
 
+void Solution::buildReversedGraph(vector<vector<int>> G)
+{
+    for (int i = 0; i < G.size(); i++)
+    {
+        for (int j = 0; j < G[i].size(); j++)
+        {
+			GReversed[i][j] = G[j][i];
+		}
+	}
+}
+
 int Solution::removeStones(vector<vector<int>>& stones)
 {
     
-        cc = 0;
+        //cc = 0;
         buildGraph(stones);
-
+        buildReversedGraph(G);
         //Refactor all dfs code to work with Graph G.
-
-        int n = 6;
-        vector<bool> visited(n, false);
-
+        clock = 0;
+        n = stones.size();
+        vector<bool> initVisited(n, false);
+        visited = initVisited;
+        vector<int> initPre(n, 0);
+        pre = initPre;
+        vector<int> initPost(n, 0);
+        post = initPost;
 
    /*     visited.reserve(G.size());
         ccnum.reserve(G.size());
@@ -93,8 +131,8 @@ int Solution::removeStones(vector<vector<int>>& stones)
         {
             if (visited[j] == false)
             {
-                ++cc;
-                explore(G, G[j], j, visited);
+               // ++cc;
+                explore(G, G[j], j);
             }
 
 
